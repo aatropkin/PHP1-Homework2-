@@ -41,6 +41,13 @@ $y = true;
         <td> <?php echo (int) ($y || $y) ?> </td>
         <td> <?php echo (int) ($y xor $y) ?> </td>
     </tr>
+        <tr>
+        <td> <?php echo (int) $y ?> </td>
+        <td> <?php echo (int) $y ?> </td>
+        <td> <?php echo (int) ($y && $y) ?> </td>
+        <td> <?php echo (int) ($y || $y) ?> </td>
+        <td> <?php echo (int) ($y xor $y) ?> </td>
+    </tr>
 </table>
 <body>
 </html>
